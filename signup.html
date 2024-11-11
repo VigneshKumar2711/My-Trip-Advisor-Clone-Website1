@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor Sign-Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="modal">
+        <button class="close-button" id="closeModal">&times;</button>
+        <div class="modal-content">
+            <link rel="icon" href="./Tripadvisor Logo.png">
+        <div class="Logo">
+            <img src="./Tripadvisor Logo.png" alt="logo">
+            <a href="#" class="Logo__s1">Tripadvisor.</a>
+        </div>
+            <h2>Sign in to unlock the best of Tripadvisor.</h2>
+            <button class="sign-in-button google">
+                <span>G</span> Continue with Google
+            </button>
+            <button class="sign-in-button email">
+                <span>@</span> Continue with Email
+            </button>
+            <p class="terms">
+                By proceeding, you agree to our <a href="#">Terms of Use</a> and confirm you have read our
+                <a href="#">Privacy and Cookie Statement</a>.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('closeModal').addEventListener('click', function() { //Hide the modal optional
+            document.querySelector('.modal').classList.add('hidden');
+            //Redirect to the main page(replace 'index.html' with your main page URL if different)
+            window.location.href="index.html";
+        });
+    </script>
+</body>
+</html>
