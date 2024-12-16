@@ -21,6 +21,5 @@ User Reviews: Users can read and submit reviews for hotels, restaurants, and des
 
 Technologies Used
 HTML: For structuring the web pages.
-CSS: For styling and layout of the site.
-JavaScript: For dynamic content and interactive elements like search filters.
+CSS: For styling and layout of the sites.
 Responsive Design: Media queries to ensure a mobile-friendly interface.
